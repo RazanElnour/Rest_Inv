@@ -1,0 +1,331 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* hotel_restaurant_inventory
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-08-12 12:31+0000\n"
+"PO-Revision-Date: 2020-08-12 12:31+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: hotel_restaurant_inventory
+#: model:ir.model,name:hotel_restaurant_inventory.model_hotel_restaurant_kitchen_order_tickets
+msgid "Add BOM to restaurant module"
+msgstr "إضافة قائمة المواد إلى وحدة المطعم"
+
+#. module: hotel_restaurant_inventory
+#: model:ir.model,name:hotel_restaurant_inventory.model_hotel_restaurant_order_list
+msgid "Add restaurant inventory"
+msgstr "إضافة مخزون المطعم"
+
+#. module: hotel_restaurant_inventory
+#: model:ir.model.fields.selection,name:hotel_restaurant_inventory.selection__hotel_restaurant_order_list__product_nature__bot
+msgid "BOT"
+msgstr "بوت"
+
+#. module: hotel_restaurant_inventory
+#: model:ir.actions.act_window,name:hotel_restaurant_inventory.open_view_hotel_restaurant_order_form_tree_bot
+msgid "BOT Details"
+msgstr "تفاصيل بوت"
+
+#. module: hotel_restaurant_inventory
+#: model:ir.model.fields,field_description:hotel_restaurant_inventory.field_hotel_restaurant_order_list__ordernobot
+msgid "BOT Number"
+msgstr "رقم بوت"
+
+#. module: hotel_restaurant_inventory
+#: model:ir.ui.menu,name:hotel_restaurant_inventory.bot_menu_open_view_hotel_restaurant_tables_form_tree
+msgid "BOT Products"
+msgstr "منتجات بوت"
+
+#. module: hotel_restaurant_inventory
+#: model_terms:ir.ui.view,arch_db:hotel_restaurant_inventory.view_hotel_restaurant_order_list_form
+msgid "Basic Info"
+msgstr "المعلومات الأساسية"
+
+#. module: hotel_restaurant_inventory
+#: model_terms:ir.ui.view,arch_db:hotel_restaurant_inventory.view_hotel_restaurant_order_list_tree_bot
+msgid "Bot Details"
+msgstr "تفاصيل بوت"
+
+#. module: hotel_restaurant_inventory
+#: model:ir.model.fields.selection,name:hotel_restaurant_inventory.selection__hotel_restaurant_kitchen_order_tickets__state__canceled
+#: model:ir.model.fields.selection,name:hotel_restaurant_inventory.selection__hotel_restaurant_order_list__state__canceled
+msgid "Cancel"
+msgstr "إلغاء"
+
+#. module: hotel_restaurant_inventory
+#: model:ir.model.fields,field_description:hotel_restaurant_inventory.field_stock_partial_picking_line__cost
+msgid "Cost"
+msgstr "التكلفة"
+
+#. module: hotel_restaurant_inventory
+#: model:ir.model.fields,field_description:hotel_restaurant_inventory.field_stock_partial_picking__create_uid
+#: model:ir.model.fields,field_description:hotel_restaurant_inventory.field_stock_partial_picking_line__create_uid
+msgid "Created by"
+msgstr "أنشأ بواسطة"
+
+#. module: hotel_restaurant_inventory
+#: model:ir.model.fields,field_description:hotel_restaurant_inventory.field_stock_partial_picking__create_date
+#: model:ir.model.fields,field_description:hotel_restaurant_inventory.field_stock_partial_picking_line__create_date
+msgid "Created on"
+msgstr "أنشئ في"
+
+#. module: hotel_restaurant_inventory
+#: model:ir.model.fields,field_description:hotel_restaurant_inventory.field_stock_partial_picking_line__currency
+msgid "Currency"
+msgstr "العملة"
+
+#. module: hotel_restaurant_inventory
+#: model:ir.model.fields,help:hotel_restaurant_inventory.field_stock_partial_picking_line__currency
+msgid "Currency in which Unit cost is expressed"
+msgstr "العملة التي يتم التعبير عن تكلفة الوحدة بها"
+
+#. module: hotel_restaurant_inventory
+#: model:ir.model.fields,field_description:hotel_restaurant_inventory.field_hotel_restaurant_order_list__date
+#: model:ir.model.fields,field_description:hotel_restaurant_inventory.field_stock_partial_picking__date
+msgid "Date"
+msgstr "التاريخ"
+
+#. module: hotel_restaurant_inventory
+#: model:ir.model.fields,field_description:hotel_restaurant_inventory.field_stock_partial_picking_line__location_dest_id
+msgid "Dest. Location"
+msgstr "الموقع الوجهة"
+
+#. module: hotel_restaurant_inventory
+#: model:ir.model.fields,field_description:hotel_restaurant_inventory.field_stock_partial_picking__display_name
+#: model:ir.model.fields,field_description:hotel_restaurant_inventory.field_stock_partial_picking_line__display_name
+msgid "Display Name"
+msgstr "اسم العرض"
+
+#. module: hotel_restaurant_inventory
+#: model:ir.model.fields.selection,name:hotel_restaurant_inventory.selection__hotel_restaurant_kitchen_order_tickets__state__done
+#: model:ir.model.fields.selection,name:hotel_restaurant_inventory.selection__hotel_restaurant_order_list__state__done
+#: model_terms:ir.ui.view,arch_db:hotel_restaurant_inventory.view_hotel_restaurant_kitchen_order_tickets_inherits_form
+#: model_terms:ir.ui.view,arch_db:hotel_restaurant_inventory.view_hotel_restaurant_order_list_form
+#: model_terms:ir.ui.view,arch_db:hotel_restaurant_inventory.view_hotel_restaurant_order_list_tree_bot
+#: model_terms:ir.ui.view,arch_db:hotel_restaurant_inventory.view_hotel_restaurant_order_list_tree_kot
+msgid "Done"
+msgstr "منجز"
+
+#. module: hotel_restaurant_inventory
+#: model:ir.model.fields.selection,name:hotel_restaurant_inventory.selection__hotel_restaurant_kitchen_order_tickets__state__draft
+#: model:ir.model.fields.selection,name:hotel_restaurant_inventory.selection__hotel_restaurant_order_list__state__draft
+msgid "Draft"
+msgstr "مسودة"
+
+#. module: hotel_restaurant_inventory
+#: model:ir.model.fields,field_description:hotel_restaurant_inventory.field_stock_partial_picking__id
+#: model:ir.model.fields,field_description:hotel_restaurant_inventory.field_stock_partial_picking_line__id
+msgid "ID"
+msgstr "المعرف"
+
+#. module: hotel_restaurant_inventory
+#: model:ir.model,name:hotel_restaurant_inventory.model_hotel_reservation_order
+msgid "Includes Hotel Reservation Order"
+msgstr "يشمل طلب حجز الفندق"
+
+#. module: hotel_restaurant_inventory
+#: model:ir.model,name:hotel_restaurant_inventory.model_hotel_restaurant_order
+msgid "Includes Hotel Restaurant Order"
+msgstr "يشمل طلب مطعم الفندق"
+
+#. module: hotel_restaurant_inventory
+#: model:ir.model.fields.selection,name:hotel_restaurant_inventory.selection__hotel_restaurant_order_list__product_nature__kot
+msgid "KOT"
+msgstr "كوت"
+
+#. module: hotel_restaurant_inventory
+#: model:ir.actions.act_window,name:hotel_restaurant_inventory.open_view_hotel_restaurant_order_form_tree_kot
+msgid "KOT Details"
+msgstr "تفاصيل كوت"
+
+#. module: hotel_restaurant_inventory
+#: model:ir.model.fields,field_description:hotel_restaurant_inventory.field_hotel_restaurant_order_list__order_no
+msgid "KOT Number"
+msgstr "رقم كوت"
+
+#. module: hotel_restaurant_inventory
+#: model:ir.ui.menu,name:hotel_restaurant_inventory.menu_open_view_hotel_restaurant_tables_form_tree
+msgid "KOT Products"
+msgstr "منتجات كوت"
+
+#. module: hotel_restaurant_inventory
+#: model_terms:ir.ui.view,arch_db:hotel_restaurant_inventory.view_hotel_restaurant_order_list_tree_kot
+msgid "Kot Details"
+msgstr "تفاصيل كوت"
+
+#. module: hotel_restaurant_inventory
+#: model:ir.model.fields,field_description:hotel_restaurant_inventory.field_stock_partial_picking____last_update
+#: model:ir.model.fields,field_description:hotel_restaurant_inventory.field_stock_partial_picking_line____last_update
+msgid "Last Modified on"
+msgstr "آخر تعديل في"
+
+#. module: hotel_restaurant_inventory
+#: model:ir.model.fields,field_description:hotel_restaurant_inventory.field_stock_partial_picking__write_uid
+#: model:ir.model.fields,field_description:hotel_restaurant_inventory.field_stock_partial_picking_line__write_uid
+msgid "Last Updated by"
+msgstr "آخر تحديث بواسطة"
+
+#. module: hotel_restaurant_inventory
+#: model:ir.model.fields,field_description:hotel_restaurant_inventory.field_stock_partial_picking__write_date
+#: model:ir.model.fields,field_description:hotel_restaurant_inventory.field_stock_partial_picking_line__write_date
+msgid "Last Updated on"
+msgstr "آخر تحديث في"
+
+#. module: hotel_restaurant_inventory
+#: model:ir.model.fields,field_description:hotel_restaurant_inventory.field_stock_partial_picking_line__location_id
+msgid "Location"
+msgstr "الموقع"
+
+#. module: hotel_restaurant_inventory
+#: model:ir.model.fields,field_description:hotel_restaurant_inventory.field_stock_partial_picking_line__move_id
+msgid "Move"
+msgstr "تحرك"
+
+#. module: hotel_restaurant_inventory
+#: model:ir.model.fields,field_description:hotel_restaurant_inventory.field_stock_partial_picking_line__update_cost
+msgid "Need cost update"
+msgstr "تحديث التكلفة مطلوب"
+
+#. module: hotel_restaurant_inventory
+#: model_terms:ir.ui.view,arch_db:hotel_restaurant_inventory.view_hotel_restaurant_order_list_filter
+msgid "Order Details"
+msgstr "تفاصيل الطلب"
+
+#. module: hotel_restaurant_inventory
+#: model_terms:ir.ui.view,arch_db:hotel_restaurant_inventory.view_hotel_restaurant_order_list_form
+msgid "Order List"
+msgstr "قائمة الطلبات"
+
+#. module: hotel_restaurant_inventory
+#: model:ir.model.fields,field_description:hotel_restaurant_inventory.field_hotel_restaurant_order_list__resno
+msgid "Order Number"
+msgstr "رقم الطلب"
+
+#. module: hotel_restaurant_inventory
+#: model:ir.model,name:hotel_restaurant_inventory.model_stock_partial_picking
+msgid "Partial Picking Processing Wizard"
+msgstr "معالج معالجة الالتقاط الجزئي"
+
+#. module: hotel_restaurant_inventory
+#: model:ir.model.fields,field_description:hotel_restaurant_inventory.field_stock_partial_picking__picking_id
+msgid "Picking"
+msgstr "الالتقاط"
+
+#. module: hotel_restaurant_inventory
+#: model:ir.model.fields.selection,name:hotel_restaurant_inventory.selection__hotel_restaurant_kitchen_order_tickets__state__in_process
+#: model:ir.model.fields.selection,name:hotel_restaurant_inventory.selection__hotel_restaurant_order_list__state__in_process
+#: model_terms:ir.ui.view,arch_db:hotel_restaurant_inventory.view_hotel_restaurant_kitchen_order_tickets_inherits_form
+#: model_terms:ir.ui.view,arch_db:hotel_restaurant_inventory.view_hotel_restaurant_order_list_form
+#: model_terms:ir.ui.view,arch_db:hotel_restaurant_inventory.view_hotel_restaurant_order_list_tree_bot
+#: model_terms:ir.ui.view,arch_db:hotel_restaurant_inventory.view_hotel_restaurant_order_list_tree_kot
+msgid "Process"
+msgstr "معالجة"
+
+#. module: hotel_restaurant_inventory
+#: model:ir.model.fields,field_description:hotel_restaurant_inventory.field_stock_partial_picking_line__product_id
+msgid "Product"
+msgstr "المنتج"
+
+#. module: hotel_restaurant_inventory
+#: model:ir.model.fields,field_description:hotel_restaurant_inventory.field_stock_partial_picking__move_ids
+msgid "Product Moves"
+msgstr "تحركات المنتج"
+
+#. module: hotel_restaurant_inventory
+#: model:ir.model.fields,field_description:hotel_restaurant_inventory.field_hotel_restaurant_order_list__product_nature
+msgid "Product Nature"
+msgstr "طبيعة المنتج"
+
+#. module: hotel_restaurant_inventory
+#: model:ir.model,name:hotel_restaurant_inventory.model_uom_uom
+msgid "Product Unit of Measure"
+msgstr "وحدة قياس المنتج"
+
+#. module: hotel_restaurant_inventory
+#: model:ir.model,name:hotel_restaurant_inventory.model_mrp_production
+msgid "Production Order"
+msgstr "أمر الإنتاج"
+
+#. module: hotel_restaurant_inventory
+#: model:ir.model.fields,field_description:hotel_restaurant_inventory.field_stock_partial_picking_line__quantity
+msgid "Quantity"
+msgstr "الكمية"
+
+#. module: hotel_restaurant_inventory
+#: model:ir.model.fields,field_description:hotel_restaurant_inventory.field_hotel_restaurant_order_list__room_no
+msgid "Room Number"
+msgstr "رقم الغرفة"
+
+#. module: hotel_restaurant_inventory
+#: model:ir.model.fields,field_description:hotel_restaurant_inventory.field_stock_partial_picking_line__prodlot_id
+msgid "Serial Number"
+msgstr "رقم السلسلة"
+
+#. module: hotel_restaurant_inventory
+#: model:ir.model.fields,field_description:hotel_restaurant_inventory.field_hotel_restaurant_order_list__shop_id
+msgid "Shop"
+msgstr "المتجر"
+
+#. module: hotel_restaurant_inventory
+#: model:ir.model.fields,field_description:hotel_restaurant_inventory.field_hotel_restaurant_kitchen_order_tickets__state
+#: model:ir.model.fields,field_description:hotel_restaurant_inventory.field_hotel_restaurant_order_list__state
+#: model_terms:ir.ui.view,arch_db:hotel_restaurant_inventory.view_hotel_restaurant_order_list_filter
+msgid "State"
+msgstr "الحالة"
+
+#. module: hotel_restaurant_inventory
+#: model:ir.model.fields,field_description:hotel_restaurant_inventory.field_hotel_restaurant_order_list__tableno
+msgid "Table Number"
+msgstr "رقم الطاولة"
+
+#. module: hotel_restaurant_inventory
+#: model:ir.model.fields,help:hotel_restaurant_inventory.field_stock_partial_picking__hide_tracking
+msgid ""
+"This field is for internal purpose. It is used to decide if the column "
+"production lot has to be shown on the moves or not."
+msgstr "هذا الحقل لأغراض داخلية. يُستخدم لتحديد ما إذا كان يجب عرض عمود الدفعة الإنتاجية على التحركات أم لا."
+
+#. module: hotel_restaurant_inventory
+#: model:ir.model.fields,field_description:hotel_restaurant_inventory.field_stock_partial_picking__hide_tracking
+#: model:ir.model.fields,field_description:hotel_restaurant_inventory.field_stock_partial_picking_line__tracking
+msgid "Tracking"
+msgstr "التتبع"
+
+#. module: hotel_restaurant_inventory
+#: model:ir.model,name:hotel_restaurant_inventory.model_stock_picking
+msgid "Transfer"
+msgstr "نقل"
+
+#. module: hotel_restaurant_inventory
+#: model:ir.model.fields,help:hotel_restaurant_inventory.field_stock_partial_picking_line__cost
+msgid "Unit Cost for this product line"
+msgstr "تكلفة الوحدة لهذا الخط من المنتجات"
+
+#. module: hotel_restaurant_inventory
+#: model:ir.model.fields,field_description:hotel_restaurant_inventory.field_stock_partial_picking_line__product_uom
+msgid "Unit of Measure"
+msgstr "وحدة القياس"
+
+#. module: hotel_restaurant_inventory
+#: model:ir.model.fields,field_description:hotel_restaurant_inventory.field_hotel_restaurant_order_list__waiter_name
+msgid "Waiter Name"
+msgstr "اسم النادل"
+
+#. module: hotel_restaurant_inventory
+#: model:ir.model.fields,field_description:hotel_restaurant_inventory.field_stock_partial_picking_line__wizard_id
+msgid "Wizard"
+msgstr "معالج"
+
+#. module: hotel_restaurant_inventory
+#: model:ir.model,name:hotel_restaurant_inventory.model_stock_partial_picking_line
+msgid "stock partial picking line"
+msgstr "خط الالتقاط الجزئي للمخزون"
